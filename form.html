@@ -1,12 +1,13 @@
-<html>
-<meta http-equiv="Content-Type" content="text/html">
+﻿<html>
 <titile><b>Заполните формы</b></titile>
 <head>
 <body>
-<form action="check.php" method="GET">
-<p>numberA<input type="text" name="a">
-<p>numberB<input type="text" name="b">
-<p>numberC<input type="text" name="c">
+<meta charset=utf-8">
+<form name ="myform" action="check.php" method="POST">
+<p>number A <input type="text" name="a" placeholder="Введите число" pattern="^[0-9]+$"> 
+
+<p>number B <input type="text" name="b" placeholder="Введите число" pattern="^[0-9]+$">
+<p>number C <input type="text" name="c" placeholder="Введите число" pattern="^[0-9]+$">
 <p><input type="submit" value="Посчитать"></p>
 
 
@@ -18,6 +19,11 @@
 
 </html>
 
-<html>
-<body>
+
+
+
+
+
+
+
 
